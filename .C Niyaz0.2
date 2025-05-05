@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+// Функция max
+int max(int a, int b) {
+    return (a > b) ? a : b;  // Тернарный оператор для краткости
+}
+
+int main() {
+    // Примеры использования
+    printf("max(5, 10) = %d\n", max(5, 10));      // 10
+    printf("max(-3, -7) = %d\n", max(-3, -7));    // -3
+    printf("max(8, 8) = %d\n", max(8, 8));        // 8
+
+    return 0;
+}
